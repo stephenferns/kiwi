@@ -1,0 +1,61 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* navbar and foorer */
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 100;
+}
+
+.footer-dark {
+  margin-top: 10px;
+  color: white;
+
+  opacity: 0.9;
+  font-size: small;
+}
+.footer-dark a {
+  text-decoration: none;
+  color: skyblue;
+}
+
+/* contact us */
+#contact-us {
+  max-width: 480px;
+  padding: 20px;
+  background-color: white;
+  color: #0277a2;
+  text-align: left;
+  margin: auto;
+  opacity: 85%;
+  border-radius: 25px;
+}
+
+#contact-us-action {
+  text-align: center;
+  margin: auto;
+}
+
+/* misc section */
+.misc {
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  color: slategray;
+  text-align: left;
+  margin: auto;
+  opacity: 85%;
+  border-radius: 25px;
+}
+.misc h1 {
+  color: #0277a2;
+}
+.misc h5 {
+  color: black;
+}
+.misc p b {
+  color: #0277a2;
+}
