@@ -1,1 +1,25 @@
 extends layout
+
+block content
+    .misc
+        h1 Login
+        //- h5 For technical and billing assistance 
+        //-   a(href="/myskywave") click here >
+        hr
+        form#login
+            br
+            .form-row
+                .col-md-12 
+                    label(for="validname") Username  
+                    Input#validname.form-control(type='text' placeholder='Username' required)
+                    #usernameFeedback.valid-feedback Looks good ! 
+                .col-md-12
+                    label(for="validname") Password  
+                    Input#validname.form-control(type='Password' placeholder='Password' required)
+                    #usernameFeedback.valid-feedback Looks good ! 
+            br
+            #login-action.form-row
+                .col-md-12
+                    button.btn.btn-primary(onClick='alert()') Login
+
+        hr
